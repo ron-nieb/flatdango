@@ -1,0 +1,73 @@
+/* Add a background color and image to the body */
+body {
+  background-color: #1c1c1c;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1553253551-8a7f717e0666?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW92aWUlMjB0ZWF0aGVyZXdvcmxkJTIwYmxhY2slMjBzaG93aW5nfGVufDB8fHx8MTYxNzY0MjYwOQ&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Caveat', cursive;
+}
+
+/* Style the navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Zen Dots', sans-serif;
+}
+
+/* Style the title and description */
+#headTitle {
+  font-size: 3rem;
+  margin: 1rem;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#descript {
+  margin: 0 1rem;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the movie card */
+#mvie {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#filmTitle {
+  font-size: 2rem;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+#poster {
+  max-height: 400px;
+  border-radius: 10px;
+}
+
+#movieDescription {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #f8f8f8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+#mviedet {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+#mviedet li {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: #f8f8f8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#runtime
